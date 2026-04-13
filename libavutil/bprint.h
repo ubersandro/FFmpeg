@@ -95,7 +95,7 @@ FF_PAD_STRUCTURE(AVBPrint, 1024,
     unsigned len;      /**< length so far */
     unsigned size;     /**< allocated memory */
     unsigned size_max; /**< maximum allocated memory */
-    char reserved_internal_buffer[1];
+    char reserved_internal_buffer[1004];
 )
 
 /**
